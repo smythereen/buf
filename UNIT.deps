@@ -1,0 +1,7 @@
+# UNIT.deps for buf
+# Evidence: #include <common.h>, <mem_io.h>, <now.h>; LIBRARIES = -lsys
+# mem_io.h is from the public mio unit; now.h is from the public now unit.
+base 1
+require sys
+require mio
+require now
